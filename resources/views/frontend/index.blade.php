@@ -1,0 +1,9 @@
+@extends('index')
+@section('content')
+    @include('frontend.section.banner')
+    @include('frontend.section.about')
+    @include('frontend.section.product')
+    @include('frontend.section.faq')
+    @include('frontend.section.testimoni')
+    @include('frontend.component.footer')
+@endsection
